@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>Soumya Shruti - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="projects.html">
+
+    <!-- GLider.js cdn from glider.js github page -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script> -->
+
+    <!-- Glide.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+
+    <!-- Glide.js JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div id="my-name">
+            <a href="#">Soumya Shruti</a>
+        </div>
+        <ul class="nav-items">
+            <li class="nav-item"><a href="#about-section">About</a></li>
+            <li class="nav-item"><a href="#project-section">Projects</a></li>
+            <li class="nav-item"><a href="#profiles-section">My Profiles</a></li>
+            <!-- <li class="nav-item"><a href="#contact-section">Contact me</a></li> -->
+        </ul>
+        <div class="nav-contacts">
+            <a href="tel:+919006113094"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:soumya.shruti1120@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </nav>
+    <section class="header">
+        <div class="hero-page">
+            <div class="hero-left">
+                <!-- <h1>Hi, this is</h1> -->
+                <h1 style="font-family:'Dancing Script';">Soumya Shruti.</h1>
+                <h3>A Front-end Developer.</h3>
+                <p>Welcome to my corner of the web, where creativity meets functionality. As a frontend developer, I
+                    thrive on the challenge of bringing ideas to life through code.</p>
+                <a class="my-resume" href="assets/Soumya Shruti_Resume.pdf" download="Soumya_Shruti_Resume.pdf">My
+                    Resume <i class="fa-solid fa-download"></i></a>
+            </div>
+            <div class="hero-right">
+                <img src="assets/pic1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about-section" id="about-section">
+        <h1>About me</h1><!--to apply filedset here-->
+        <div class="about">
+            <div class="about-left">
+                <img src="assets/portfolio-vector5.jpg" alt="">
+            </div>
+            <div class="about-right">
+                <p>Hello, I'm Soumya, a passionate frontend developer currently in the final year of my B.Tech degree in
+                    Computer Science and Engineering at Neotia Institute of Technology, Management and Science, located
+                    in Kolkata, West Bengal. Originally from Patna, Bihar, I have dedicated myself to merging code and
+                    creativity to craft immersive user experiences.</p><br>
+                <!-- <p>My journey in web development started with mastering HTML, CSS, and JavaScript. I've since been exploring React.js to create dynamic and responsive web applications. Through consistent learning and practice, I've developed proficiency in designing user interfaces that balance visual appeal and usability. While I have made significant strides in honing these skills, I continue to explore and learn, aiming to further enhance my expertise in frontend development. Throughout my academic journey, I have maintained a commendable CGPA of 9.3 up until the 6th semester, reflecting my commitment to academic excellence and a strong foundation in computer science principles.</p><br> -->
+                <!-- <p>In my portfolio, you'll find a showcase of some of my proudest work, highlighting the range and depth of my skill set. Feel free to explore my projects below!</p> -->
+                <!-- <a href="#contact-section" class="hire-me">Hire me!</a> -->
+                <!-- <a class="my-resume" href="assets/My Resume_.pdf" download="Soumya_Shruti_Resume.pdf">My Resume  <i class="fa-solid fa-download"></i></a> -->
+                <!-- <p>design Lorem ipsum dolor sit amet. <a href="hobbies-page.html"></a></p> -->
+            </div>
+        </div>
+    </section>
+
+
+    <section class="experience-section" id="experience-section">
+        <h1>Experience</h1>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h2 class="scramble">SDE Intern</h2>
+                    <p><b>Company:</b> ITJobxs</p>
+                    <p><b>Duration:</b> Jul 2023 - Oct 2023</p>
+                    <p>Worked on the design and development part of a fully responsive
+                        web page for a particular section of itjobxs.com using HTML, CSS, JS, Bootstrap, PHP, MySQL.
+                    <p>Worked on user verification/authentication + Engineering
+                        challenges of detecting and removing the fake bots and posts. 
+                        And, integrated recaptcha with the website - Google layer of protection
+                        for websites.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h2>Frontend Developer Intern</h2>
+                    <p><b>Company:</b> Electica Energy</p>
+                    <p><b>Duration:</b> Oct 2022 - Jan 2023</p>
+                    <p>Worked on designing and developing a dynamic website using ReactJS and Figma. </p>
+                    <p>Used React Styled Components for styling and collaborated with designers to  implement UI/UX improvements.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#contact-section" class="hire-me">Hire me!</a>
+    </section>
+
+    <!-- Projects Carousel -->
+    <section class="glide" id="project-section">
+        <h1>Projects</h1>
+        <div data-glide-el="track" class="glide__track">
+            <ul class="glide__slides">
+                <li class="glide-slide">
+                    <a target="_blank" href="https://soumyru-dice-game.netlify.app/">
+                        <img src="./assets/cake-shop.png" alt="dice game">
+                        <div class="slide-text">
+                            <h5>Dice Game</h5>
+                            <p>(ReactJs, API)</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="glide-slide">
+                    <a target="_blank" href="https://soumyru-dice-game.netlify.app/">
+                        <img src="./assets/dice-game.png" alt="dice game">
+                        <div class="slide-text">
+                            <h5>Dice Game</h5>
+                            <p>(ReactJs, API)</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="glide-slide">
+                    <a target="_blank" href="https://soumyru-dice-game.netlify.app/">
+                        <img src="./assets/netflix.png" alt="dice game">
+                        <div class="slide-text">
+                            <h5>Dice Game</h5>
+                            <p>(ReactJs, API)</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="glide-slide">
+                    <a target="_blank" href="https://soumyru-dice-game.netlify.app/">
+                        <img src="./assets/peachCat.png" alt="dice game">
+                        <div class="slide-text">
+                            <h5>Dice Game</h5>
+                            <p>(ReactJs, API)</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="glide-slide">2</li>
+                <li class="glide-slide">3</li>
+                <li class="glide-slide">4</li>
+                <li class="glide-slide">5</li>
+                <li class="glide-slide">6</li>
+            </ul>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+            <!-- <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button> -->
+            <!-- Bullets will be generated dynamically -->
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <section class="technologies">
+        <h1>Tech Stack</h1>
+        <p>These are tools & technologies, I have worked with</p>
+        <div class="tech-container">
+            <div class="tech-box">C++</div>
+            <div class="tech-box">Java</div>
+            <div class="tech-box">jQuery</div>
+            <div class="tech-box">CSS</div>
+            <div class="tech-box">JavaScript</div>
+            <div class="tech-box">HTML</div>
+            <div class="tech-box">React</div>
+            <div class="tech-box">MongoDB</div>
+            <div class="tech-box">Express.js</div>
+            <div class="tech-box">Bootstrap</div>
+            <div class="tech-box">Node.js</div>
+            <div class="tech-box">Mongooose</div>
+            <div class="tech-box">Github</div>
+            <div class="tech-box">Netlify</div>
+            <div class="tech-box">Render</div>
+            <div class="tech-box">SQL</div>
+            <div class="tech-box">Socket.io</div>
+            <div class="tech-box">Material UI</div>
+            <div class="tech-box">Firebase</div>
+        </div>
+    </section>
+
+    <!-- <section>
+        <div class="glide">
+            <div data-glide-el="track" class="glide__track">
+                <ul class="glide__slides">
+                    <li class="project-slide">
+                        <a class="project-card" target="_blank" href="https://soumyru-cake-shop.netlify.app/">
+                            <img src="./assets/cake-shop.png" alt="Cake Shop">
+                            <p>Cake Shop</p>
+                        </a>
+                        <div class="project-desc">
+                            <p>This is a dynamic e-commerce platform for a cake shop, developed with a delightful design
+                                and seamless responsiveness across devices.
+                                It has integrated local storage for enhanced user experience
+                                and the features implemented enables the
+                                users to browse, select, and add items to cart
+                                from cakes and pastries page with details such
+                                as price, weight, and quantity. It also is crafted with a dedicated cart page to
+                                consolidate
+                                and display selected items alongside the total amount.</p>
+                            <p><b>Tech Stack: </b>HTML, CSS, JS</p>
+                        </div>
+                    </li>
+                    <li class="project-slide">
+                        <a class="project-card" target="_blank" href="https://soumyru-dice-game.netlify.app/">
+                            <img src="./assets/dice-game.png">
+                            <p>Dice Game</p>
+                        </a>
+                        <div class="project-desc">
+                            <p>This is a thrilling dice game where you can select a number, roll the dice, and earn
+                                points if your guess matches the dice number. I've implemented this game using React.js,
+                                utilizing state management for game logic and styled components for a visually appealing
+                                experience. Test your luck and enjoy playing this game!</p>
+                            <p><b>Tech Stack: </b>ReactJS, CSS, Figma</p>
+                        </div>
+                    </li>
+                    <li class="project-slide">
+                        <a class="project-card" target="_blank" href="https://soumyru-weather-app.netlify.app/">
+                            <img src="./assets/weather-app.png">
+                            <p>Weather App</p>
+                        </a>
+                        <div class="project-desc">
+                            <p>This is a Weather App, which enables user to retrieve weather information by city. I have
+                                also integrated local storage for persistent user
+                                preferences and implemented dynamic weather icons based on current conditions
+                                for enhanced user experience.</p>
+                            <p><b>Tech Stack: </b>HTML, CSS, JS</p>
+                        </div>
+                    </li>
+                    <li class="project-slide">
+                        <a class="project-card" target="_blank" href="https://soumyru.github.io/Netflix-Clone/">
+                            <img src="./assets/Screenshot (1014).png" alt="project1">
+                            <p>Netflix Landing Page Clone</p>
+                        </a>
+                        <div class="project-desc">
+                            <p>This project is a faithful replica of Netflix's landing page. I have meticulously
+                                recreated the design of the original homepage of Netflix.</p>
+                            <p><b>Tech Stack: </b>HTML, CSS, JS</p>
+                        </div>
+                    </li>
+                    <li class="project-slide"><a class="project-card" target="_blank"
+                            href="https://soumyru.github.io/Snake-Maniac/">
+                            <img src="./assets/snakeManiac.png">
+                            <p>Snake-Maniac</p>
+                        </a>
+                        <div class="project-desc">
+                            <p>Experience the nostalgia of the classic snake game with 'Snake Maniac'. I've developed
+                                this timeless game, complete with all the essential functionalities. Watch as the snake
+                                grows with each meal and navigate carefully to avoid colliding with yourself or the
+                                boundaries.</p>
+                            <p><b>Tech Stack: </b>HTML, CSS, JS</p>
+                        </div>
+                    </li>
+                    <li class="project-slide">
+                        <a class="project-card" target="_blank" href="https://soumyru.github.io/Tic-Tac-Toe/">
+                            <img src="./assets/peachCat.png">
+                            <p>Tic-Tac-Toe</p>
+                        </a>
+                        <div class="project-desc">
+                            <p>Challenge a friend to a timeless battle of wits with this classic 2-player Tic-Tac-Toe
+                                game. This is a simple yet engaging gameplay as you strategically place your marks to
+                                claim victory in this charmingly themed 2-player Tic-Tac-Toe experience featuring Peach
+                                Cat!</p>
+                            <p><b>Tech Stack: </b>HTML, CSS, JS</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="profiles-section" id="profiles-section">
+        <h1>Profiles</h1>
+        <div class="profiles">
+            <div class="profile-links">
+                <a href="https://www.linkedin.com/in/soumya-s-b2384b203/" target="_blank">LinkedIn <i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/soumyru" target="_blank">Github <i class="fa-brands fa-github"></i></a>
+                <a href="https://leetcode.com/Soumya_11/" target="_blank">Leetcode <i
+                        class="fa-solid fa-laptop-code"></i></a>
+                <a href="https://www.hackerrank.com/profile/soumya_shruti111" target="_blank">Hackerrank<i
+                        class="fa-brands fa-hackerrank"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <section class="contact-section" id="contact-section">
+            <p>Contact me via -</p>
+            <div class="contacts">
+                <a href="tel:+919006113094">+91-9006113094 <i class="fa-solid fa-phone"></i></a>
+                <a href="mailto:soumya.shruti1120@gmail.com" target="_blank">soumya.shruti1120@gmail.com <i
+                        class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a class="my-resume" href="assets/My Resume_.pdf" download="Soumya_Shruti_Resume.pdf" style="margin-left: 20px;
+            margin-top: 10px;">My Resume <i class="fa-solid fa-download"></i></a>
+
+        </section>
+        <p class="footer-p">&copy; 2025 Soumya Shruti</p>
+        <p class="footer-p">Designed and <i class="fa-solid fa-code"></i> by Soumya Shruti.</p>
+    </footer>
+
+
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script src="script.js"></script>
+</body>
